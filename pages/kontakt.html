@@ -5,11 +5,49 @@
         <title>Untitled Document</title>
     </head>
     <body>
-        <h1>Kontakt</h1>
+    
+    <h1>Kontakt</h1>
         <p><a href="../index.html">Hem</a><br>
         <a href="presentation.html">Presentation</a><br>
         <a href="Laborationer.html">Laborationer</a><br>
         <a href="kontakt.html">Kontaktinformation</a><br></p>
+        
+        <form action="http://voyager.lnu.se/tekinet/kurser/dtt/wp_webbintro/form.php" method="post">
+        <fieldset>
+        <legend>Frågaformulär</legend>
+        
+            <label for="name">Namn:</label>
+                <input type="text" name="name" id="name" value="Ditt namn" />
+                <br>
+                <label for="ämne">Ämne:</label>
+                <input type="text" name="ämne" id="ämne" value=" Ämne" />
+                            <br>
+                        <label for="comments">Kommentar:</label>
+                        <textarea name="comments" id="comments" cols="25" rows="3">
+                            
+                        </textarea>
+                            <br>
+
+                            <label for="location">Är du</label>
+                        <select name="location" id="location">
+                            <option value="">Välj</option>
+                            <option value="Student">Student</option>
+                            <option value="Lärare">Lärare</option>
+                        </select>
+                   
+                            <br>
+                    
+                    <label for="Mail:">Kontakt via mail</label><input type="radio" name="Mail" id="Mail:">
+                    <br>
+                    <label for="Tele:">Kontakt via telefon</label><input type="radio" name="tele" id="Tele:">
+               
+                            <br>
+                
+                        <input type="submit" value="Skicka" />
+                        <input type="reset" value="Nollställ" />
+        
+        </fieldset>       
+    </form>
     
     
     
