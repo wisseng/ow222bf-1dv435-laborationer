@@ -10,8 +10,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+fieldset, form, label, legend, caption, tbody, tfoot, thead, th,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
@@ -49,12 +48,18 @@ table {
 
 /*--------------------------------------------------------*/
 
+                            /*backgrunds bild */
+
+#background { background: url(pics/tree_bark.png) no-repeat; 
+                background-size: cover;
+}
+
 #wrap {
         width: 900px;
         margin: 0 auto;
         
 }
-
+                            /* logga */
 #header {
         border:2px solid;
         border-radius: 4px;
@@ -64,25 +69,29 @@ table {
         
 }
 
-#bilden { float:center;
-
-}
+                            /*typografi för headlines */
 
 h1 { font-size:2.3em;
     margin-bottom:20px;
     font-family:helvetica, sans-sherif;
-    font-weight:blod;
+    font-weight:bold;
     
 }
 
 h2 { font-size:1.7em;
+    font-weight:bold;
 
 }
 
 h3 { font-size:1.4em;
+    font-weight:bold;
 
 }
 
+h4 { font-size:1.2em;
+    font-weight:bold;
+}
+                                        /* body delen */
 #content { border: 2px solid;
             border-radius:4px;
             border-color:black;
@@ -90,7 +99,23 @@ h3 { font-size:1.4em;
             float: right;
             padding: 10px 25px;
             background-color:#F2EBBF;
+            font-family:helvetica, sans-sherif;
 }
+
+#content li b{ font-weight:bold;
+        
+
+}
+
+#content li a:hover{  color: green;
+                        text-decoration:underline;
+}
+
+#content i{ font-style:italic;
+
+}
+
+                                            /*meny instälningar */
 
 #mainnav { border:2px solid black;
         width:200px;
@@ -116,7 +141,9 @@ h3 { font-size:1.4em;
 #mainnav a:hover {  background-color:#EFE;
                     color:#9C9;
 }
- 
+
+
+                                            /*längst ner på sidan */
 #footer { border: 2px solid;
         border-radius: 4px;
         border-color: black;
@@ -125,6 +152,8 @@ h3 { font-size:1.4em;
         background-color:#F2EBBF;
 }         
 
-
+#footer i{ font-style:italic;
+            float:center;
+}
         
     
