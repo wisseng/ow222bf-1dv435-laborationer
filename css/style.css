@@ -61,7 +61,7 @@ table {
 }
                             /* logga */
 #header {
-        border:2px solid;
+        border:solid;
         border-radius: 4px;
         border-color: black;
         float: center;
@@ -69,29 +69,34 @@ table {
         
 }
 
-                            /*typografi för headlines */
+                            /* rubriker */
 
 h1 { font-size:2.3em;
     margin-bottom:20px;
     font-family:helvetica, sans-sherif;
     font-weight:bold;
+    text-align:center;
     
 }
 
 h2 { font-size:1.7em;
     font-weight:bold;
-
+    font-family:helvetica, sans-sherif;
+    text-align:center;
 }
 
 h3 { font-size:1.4em;
     font-weight:bold;
-
+    font-family:helvetica, sans-sherif;
 }
 
 h4 { font-size:1.2em;
     font-weight:bold;
+    font-family:helvetica, sans-sherif;
+    text-decoration:underline;
 }
-                                        /* body delen */
+                                /* body delen */
+
 #content { border: 2px solid;
             border-radius:4px;
             border-color:black;
@@ -115,7 +120,12 @@ h4 { font-size:1.2em;
 
 }
 
-                                            /*meny instälningar */
+#content dd{ text-align:justify;
+}
+
+#bloggbild1 { float:right;
+}
+                                    /*meny instälningar */
 
 #mainnav { border:2px solid black;
         width:200px;
@@ -142,7 +152,28 @@ h4 { font-size:1.2em;
                     color:#9C9;
 }
 
+.active { text-align:right;
 
+}
+
+                                            /* tabeller */
+#tabell  {
+    border: 2px solid;
+    border-radius: 5px;
+    border-collapse: ;
+    padding: 50px 50px;
+    background-color: white;
+}
+#tabell tr {
+    padding: 5px 5px;
+    background-color:#9C9;
+    
+}
+
+#tabell th {    
+            padding: 5px 5px;
+             background-color:#EFE;
+}
                                             /*längst ner på sidan */
 #footer { border: 2px solid;
         border-radius: 4px;
@@ -152,8 +183,13 @@ h4 { font-size:1.2em;
         background-color:#F2EBBF;
 }         
 
-#footer i{ font-style:italic;
-            float:center;
+#footer p i{ font-style:italic;
+            text-align:center;
 }
-        
+
+.nere {
+     
+        text-align: center;
+        padding: 110px;
+    }    
     
