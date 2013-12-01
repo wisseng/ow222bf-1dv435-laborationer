@@ -50,7 +50,7 @@ table {
 
                             /*backgrunds bild */
 
-#background { background: url(pics/tree_bark.png) no-repeat; 
+#background { background: url(pics/tree_bark.png); 
                 background-size: cover;
 }
 
@@ -117,10 +117,17 @@ h4 { font-size:1.2em;
 }
 
 #content i{ font-style:italic;
+            font-size:0.9em;
 
 }
 
 #content dd{ text-align:justify;
+
+}
+
+
+#bloggt1 { font-family:Lorem ipsum;
+
 }
 
 #bloggbild1 { float:right;
@@ -148,8 +155,14 @@ h4 { font-size:1.2em;
             padding:10px;
 }
 
-#mainnav a:hover {  background-color:#EFE;
-                    color:#9C9;
+
+}
+
+#mainnav { background-image: url(logo_symbol.png);
+            background-position:bottom;
+            background-size:200px 200px;
+            background-repeat:no-repeat;
+            position:absolute;
 }
 
 .active { text-align:right;
@@ -174,6 +187,9 @@ h4 { font-size:1.2em;
             padding: 5px 5px;
              background-color:#EFE;
 }
+
+#lab { background-color:#EFE;
+}
                                             /*längst ner på sidan */
 #footer { border: 2px solid;
         border-radius: 4px;
@@ -184,7 +200,15 @@ h4 { font-size:1.2em;
 }         
 
 #footer p i{ font-style:italic;
-            text-align:center;
+            font-size:0.9em;
+}
+
+#footer {   background-image: url(pics/logo_symbol.png);
+        background-position: right;
+        background-size:100px 100px;
+        background-repeat:no-repeat;
+            
+            
 }
 
 .nere {
