@@ -1,0 +1,21 @@
+
+
+#header { display:none;
+
+}
+
+#mainnav { display:none;
+
+}
+
+#content { font-family:"Times New Roman", Times, serif;
+
+}
+
+#content a:after {
+    content : " ("attr(href) ") "; 
+}
+
+#footer { font-family:"Times New Roman", Times, serif;
+
+}
