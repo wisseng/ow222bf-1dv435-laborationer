@@ -133,13 +133,63 @@ h4 { font-size:1.2em;
 #bloggbild1 { float:right;
 }
                                     /*meny instälningar */
+                                    
+                                        /*sprite*/
 
-#mainnav { border:2px solid black;
+#sprite a { background-image: url(pics/sprite.png);
+            width:200px;
+            height:24px;
+            display:block;
+            text-indent: 22px;
+            background-repeat:no-repeat;
+        
+}
+
+#hem {      background-position:0 0;
+    
+}
+
+#hem:hover { background-position:0 -48px;
+    
+}
+
+#pres {     background-position:0 -192px;
+    
+}
+
+#pres:hover { background-position: 0 -240px;
+
+}
+
+#labbb {    background-position:0 -96px;
+
+}
+
+#labbb:hover {background-position: 0 -144px;
+}
+
+#kont {     background-position:0 -288px;
+    
+} 
+
+#kont:hover {  background-position: 0 -336px;
+    
+}
+
+/*sprite slut*/
+
+
+
+#mainnav { border:2px solid black;          
         width:200px;
         border-bottom:none;
         border-color: black;
         float:left;
+        
+        
+        
 }
+
 
 #mainnav li{ border-bottom:1px solid black;
 
@@ -153,27 +203,19 @@ h4 { font-size:1.2em;
             font-weight:bold;
             display:block;
             padding:10px;
+            
 }
 
 
-}
-
-#mainnav { background-image: url(logo_symbol.png);
-            background-position:bottom;
-            background-size:200px 200px;
-            background-repeat:no-repeat;
-            position:absolute;
-}
-
-.active { text-align:right;
+.active { text-align:center;
 
 }
+            
 
                                             /* tabeller */
 #tabell  {
     border: 2px solid;
     border-radius: 5px;
-    border-collapse: ;
     padding: 50px 50px;
     background-color: white;
 }
@@ -215,5 +257,7 @@ h4 { font-size:1.2em;
      
         text-align: center;
         padding: 110px;
-    }    
+    }   
+    
+    
     
