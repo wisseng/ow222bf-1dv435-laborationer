@@ -1,4 +1,4 @@
-
+/* bildspel*/
 
 var image1=new Image ()
 image1.src="../pics/grf.png"
