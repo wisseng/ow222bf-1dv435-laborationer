@@ -170,6 +170,26 @@
 
                         
                     <p><img src="../pics/grf.png" name="slide" width="400px" height="400px"></p>
+                    
+                          <label>Amount:</label>
+                                <input type="text" id="amount" />
+                                
+                                <label>Från:</label>
+                                <select id="select1">
+                                    <option value="dollar">&#36; Dollar</option>
+                                    <option value="euro">&euro; Euro</option>
+                                </select>
+                                
+                                <label>Till:</label>
+                                <select id="select2">
+                                    <option value="dollar">&#36; Dollar</option>
+                                    <option value="euro">&euro; Euro</option>
+                                </select>
+                                <input type="button" onClick="calculation()" value="calculate" />
+                                <div id="result"></div>
+                                
+                    
+                    <a id="valuta" href="valuta.html">Valutakonvaterare</a>
     
 </div>
 <div id="footer">
@@ -183,6 +203,7 @@
 
 <script type="text/javascript" src="bildspel.js"></script>
 <script type="text/javascript" src="javascript.js"></script>
+<script type="text/javascript" src="valuta.js"></script>
 
     </body>
 </html>

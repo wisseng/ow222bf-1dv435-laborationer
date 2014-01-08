@@ -1,35 +1,30 @@
-<!doctype html>
-<html>
+      <!doctype html>
+<html id="background">
     <head>
-    <meta charset="UTF-8">
-        <title>Valutakonerterare</title>
-    </head>
-
-
-
-<fieldset>
-        <legend>Valuta</legend>
+        <meta charset="UTF-8">
+        <title>Valutakonetator</title>
         
-                <label for="amount">Belopp:</label>
-                <input type="numbers" name="amount" id="uamount" value="Belopp" />
-                            
-
-                            <label for="location">Från</label>
-                        <select name="location" id="location">
-                            <option value="">Välj</option>
-                            <option value="dollar">Dollar</option>
-                            <option value="euro">Euro</option>
-                        </select>
-                          
-                          <label for="location">Till</label>
-                        <select name="location" id="location">
-                            <option value="">Välj</option>
-                            <option value="dollar">Dollar</option>
-                            <option value="euro">Euro</option>
-                        </select>
-                   
-                
-                        <input type="submit" value="Konvertera" /> 
+    </head>                  
+            <body>
                         
-                           
+                        <label>Amount:</label>
+                                <input type="text" id="amount" />
+                                
+                                <label>Från:</label>
+                                <select id="select1">
+                                    <option value="dollar">&#36; Dollar</option>
+                                    <option value="euro">&euro; Euro</option>
+                                </select>
+                                
+                                <label>Till:</label>
+                                <select id="select2">
+                                    <option value="dollar">&#36; Dollar</option>
+                                    <option value="euro">&euro; Euro</option>
+                                </select>
+                                <input type="button" onClick="calculation()" value="calculate" />
+                                <div id="result"></div>
+                                
+<script type="text/javascript" src="valuta.js"></script>
 
+        </body>
+</html>
